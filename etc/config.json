@@ -1,0 +1,15 @@
+{
+  "system": {
+    "paths": {
+    },
+    "translated_applications": {
+      "portal": ["en", "hu"]
+    },
+    "log": {
+      "file": "/log/language.log"
+    },
+    "cache": {
+      "dir": "/cache/"
+    }
+  }
+}

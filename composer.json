@@ -2,9 +2,15 @@
     "name": "exam/2015_Q3_senior",
     "description": "2015 Q3 Senior",
     "require": {
-        "phpunit/phpunit": "4.7.*"
+        "phpunit/phpunit": "4.7.*",
+        "peekmo/jsonpath": "dev-master",
+        "psr/log": "dev-master",
+        "mikey179/vfsStream": "~1"
     },
     "autoload": {
-        "psr-4": {"Language\\": "src/"}
+        "psr-4": {
+            "Language\\": "src/",
+            "Test\\": "test/"
+        }
     }
 }
